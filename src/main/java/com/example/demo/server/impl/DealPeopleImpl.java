@@ -16,7 +16,7 @@ import java.util.List;
  */
 
 @Service
-public class DealPeopleImpl extends ServiceImpl<PeopleMapper, User> implements DealPeople {
+public class DealPeopleImpl implements DealPeople {
 
 
     @Resource

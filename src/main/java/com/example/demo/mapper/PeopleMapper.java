@@ -11,7 +11,7 @@ import java.util.List;
  * Description:
  */
 
-public interface PeopleMapper  extends BaseMapper<User>{
+public interface PeopleMapper {
     List<User> select();
     int getCount();
 }

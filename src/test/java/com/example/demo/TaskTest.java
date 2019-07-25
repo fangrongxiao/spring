@@ -25,7 +25,7 @@ public class TaskTest {
     @Test
     public void tes() throws Exception{
         List<User> select = peopleServer.getPeople();
-        System.out.println(select.size());
+        System.out.println(select.toString());
     }
 
 }
